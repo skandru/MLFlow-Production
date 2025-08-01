@@ -1,0 +1,28 @@
+# params.yaml
+models:
+  random_forest:
+    n_estimators: 100
+    max_depth: 7
+    min_samples_split: 5
+    min_samples_leaf: 2
+    random_state: 42
+  
+  logistic_regression:
+    C: 1.0
+    penalty: l2
+    solver: liblinear
+    random_state: 42
+  
+  svm:
+    C: 1.0
+    kernel: rbf
+    random_state: 42
+
+data:
+  test_size: 0.2
+  random_state: 42
+  scale: true
+
+training:
+  cross_validation_folds: 5
+  scoring_metric: accuracy

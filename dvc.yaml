@@ -1,0 +1,33 @@
+# dvc.yaml
+stages:
+  prepare_data:
+    cmd: python src/data_pipeline.py
+    deps:
+    - src/data_pipeline.py
+    outs:
+    - data/raw/
+    - data/processed/
+  
+  train_models:
+    cmd: python src/train_multiple_models.py
+    deps:
+    - src/train_multiple_models.py
+    - data/processed/
+    params:
+    - models.random_forest
+    - models.logistic_regression
+    outs:
+    - models/
+    metrics:
+    - metrics/model_metrics.json
+  
+  evaluate_models:
+    cmd: python src/evaluate_models.py
+    deps:
+    - src/evaluate_models.py
+    - models/
+    - data/processed/
+    metrics:
+    - metrics/evaluation_metrics.json
+    plots:
+    - plots/model_comparison.png
