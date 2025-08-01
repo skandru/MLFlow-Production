@@ -1,0 +1,15 @@
+artifact_uri: /teamspace/studios/this_studio/mlops-day1-project/mlflow-artifacts/9a2d127340b2440c928914de63633e19/artifacts
+end_time: 1754080316703
+entry_point_name: ''
+experiment_id: '921765532944671466'
+lifecycle_stage: active
+run_id: 9a2d127340b2440c928914de63633e19
+run_name: DVC_svm
+run_uuid: 9a2d127340b2440c928914de63633e19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754080314602
+status: 3
+tags: []
+user_id: sk324238746
