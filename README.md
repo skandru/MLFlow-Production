@@ -80,7 +80,7 @@ mlops-day1-project/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/skandru/MLFlow-Production
 cd mlops-day1-project
 
 # Create virtual environment
