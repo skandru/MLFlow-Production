@@ -1,8 +1,13 @@
 # MLOps Day 1: Foundations - Complete Experiment Tracking System
 
 A comprehensive MLOps implementation demonstrating professional-grade experiment tracking, model versioning, and pipeline automation using MLFlow, Weights & Biases, and DVC.
+<img width="1740" height="850" alt="Model_Results" src="https://github.com/user-attachments/assets/9183f2b1-9f2d-4d3e-afc1-c1055667bd38" />
 
+<img width="1515" height="847" alt="Model_comparison_results" src="https://github.com/user-attachments/assets/b5385266-1f6c-479a-ae0a-cb0c42da1680" />
 
+<img width="1843" height="752" alt="ML-pipeline-experiments_day1-charts" src="https://github.com/user-attachments/assets/06965895-8077-4d60-b2b9-bc2ec2fc3579" />
+
+<img width="1844" height="704" alt="ML-pipeline-experiments_day1-models" src="https://github.com/user-attachments/assets/363ff04d-ac87-4997-b1f4-cd680b575456" />
 
 ## 🎯 Project Overview
 
